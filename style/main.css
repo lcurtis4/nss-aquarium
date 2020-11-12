@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+.logo {
+    height: 8em; 
+}
+.content {
+    display: flex;
+}
+
+.container--left {
+    flex: 3;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-bottom: 25px;
+    height: 52em;
+
+}
+
+.container--right {
+    flex: 1;
+border: 4px dotted blue;
+text-align: center;
+background-color: lightblue;
+}
+.fish__image {
+    height: 10em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.fishlist {
+     margin-bottom: 25px;
+     border: 4px dotted green;
+     background-color: lightgreen;
+ }
+.location {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 4px dotted orange;
+    background-color: lightcoral;
+}
+.location__image {
+    margin-bottom: 15px;
+}
+ .quotes {
+     border: 4px dotted palevioletred;
+     background-color: papayawhip;
+ }
+
+ 
+
+
